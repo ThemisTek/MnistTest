@@ -55,7 +55,7 @@ def draw_circle(event,x,y,flags,param):
 
     elif event == cv2.EVENT_MOUSEMOVE:      
         if drawing == True:
-            cv2.circle(img,(x,y),15,(0),-1)
+            cv2.circle(img,(x,y),25,(0),-1)
             
     elif event == cv2.EVENT_RBUTTONDOWN:      
         img.fill((255))
