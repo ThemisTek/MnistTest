@@ -32,6 +32,9 @@ drawing = False # true if mouse is pressed
 mode = True # if True, draw rectangle. Press 'm' to toggle to curve
 ix,iy = -1,-1
 
+##change
+as
+
 def validateModel(inpt):
     global model
     im2=cv2.resize(img,(28,28),interpolation = cv2.INTER_AREA)
